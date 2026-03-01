@@ -1,8 +1,8 @@
 import csv
 
-def show_my_books(filename):
-    print(f"\n--- DATA FROM: {filename} ---")
-    with open(filename, mode='r') as file:
+def show_my_books(goodreads_library_export.csv):
+    print(f"\n--- DATA FROM: {goodreads_library_export.csv} ---")
+    with open(goodreads_library_export.csv, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             # This neatly prints each book from your list
