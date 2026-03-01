@@ -1,12 +1,12 @@
 import csv
 
-print("--- FINISHED FICTION ---")
+print("-/-/-/->> FINISHED FICTION <<-\-\-\-")
 
 with open('goodreads_library_export.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     count = 0
     for row in reader:
-        # Check if it's 'read' and NOT 'non-fiction'
+        # Checking if it's 'read' and NOT 'non-fiction'
         if row['Exclusive Shelf'] == 'read':
             if 'non-fiction' not in row['Bookshelves'].lower():
                 print(f" {row['Title']}")
