@@ -2,11 +2,11 @@ import csv
 
 # This is the 'Librarian' function
 def search_books(keyword):
-    print(f"\n--- 🔍 Searching for: '{keyword}' ---")
+    print(f"\n--- Searching for: '{keyword}' ---")
     count = 0
     
     # Opening your Goodreads export
-    with open('goodreads_export.csv', mode='r', encoding='utf-8') as file:
+    with open('goodreads_library_export.csv', mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
             # Check if the keyword is in the Title or the Author's name
