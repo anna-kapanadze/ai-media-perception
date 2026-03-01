@@ -1,7 +1,7 @@
 # ai-media-perception
 -------------------------
 
-# My Goodreads Mood Map
+# My Goodreads Authors Graph
 
 This graph shows my average rating for different authors based on my Goodreads data. 
 
