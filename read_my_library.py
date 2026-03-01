@@ -1,7 +1,7 @@
 import csv
 
 def show_my_books(filename):
-    print(f"\n--- 📚 DATA FROM: {filename} ---")
+    print(f"\n--- DATA FROM: {filename} ---")
     with open(filename, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
