@@ -9,7 +9,7 @@ with open('goodreads_export.csv', mode='r', encoding='utf-8') as file:
         # Check if it's 'read' and NOT 'non-fiction'
         if row['Exclusive Shelf'] == 'read':
             if 'non-fiction' not in row['Bookshelves'].lower():
-                print(f"✨ {row['Title']}")
+                print(f" {row['Title']}")
                 count += 1
 
 print(f"\nTotal Finished Fiction: {count}")
