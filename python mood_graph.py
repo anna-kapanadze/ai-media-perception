@@ -4,7 +4,7 @@ from textblob import TextBlob
 
 author_scores = {}
 
-with open('goodreads_export.csv', mode='r', encoding='utf-8') as file:
+with open('goodreads_library_export.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     for row in reader:
         review = row['Body']
