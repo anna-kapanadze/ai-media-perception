@@ -2,7 +2,7 @@ import csv
 
 print("--- FINISHED FICTION ---")
 
-with open('goodreads_export.csv', mode='r', encoding='utf-8') as file:
+with open('goodreads_library_export.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     count = 0
     for row in reader:
