@@ -1,6 +1,3 @@
-# ai-media-perception
--------------------------
-
 # My Goodreads Authors Graph
 
 This graph shows my average rating for different authors based on my Goodreads data. 
