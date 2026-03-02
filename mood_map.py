@@ -35,4 +35,3 @@ for author in author_scores:
         
     print("Author: " + author)
     print("Average Mood: " + mood + " (" + str(round(avg_score, 2)) + ")")
-    print("------------------------------")
