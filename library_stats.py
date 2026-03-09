@@ -7,7 +7,7 @@ with open('goodreads_library_export.csv', mode='r', encoding='utf-8') as file:
     for row in reader:
     
         rating = int(row['My Rating'])
-        if rating > 0: # Ignorinb the books not yet rated 
+        if rating > 0: # Ignoring the books not yet rated 
             ratings.append(rating)
 
 if ratings:
